@@ -1974,6 +1974,29 @@
             }
         }
     },
+    "spracing": {
+        "name": "SPRacing",
+        "rx_2400": {
+            "evocomborxvtxosd_d4": {
+                "product_name": "SPRacing 2.4GHz Combo RX/OSD/VTX (D4)",
+                "lua_name": "SPR_EVO_D4",
+                "layout_file": "SPRacing EVO 2400 Combo RX VTX OSD D4.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "platform": "esp32",
+                "min_version": "3.3.0",
+                "firmware": "SPRacing_ESP32_2400_COMBO_RX_VTX_OSD"
+            },
+            "evocomborxvtxosd_s3": {
+                "product_name": "SPRacing 2.4GHz Combo RX/OSD/VTX (S3)",
+                "lua_name": "SPR_EVO_S3",
+                "layout_file": "SPRacing EVO 2400 Combo RX VTX OSD S3.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "platform": "esp32-s3",
+                "min_version": "3.4.0",
+                "firmware": "SPRacing_ESP32S3_2400_COMBO_RX_VTX_OSD"
+            }
+        }
+    },
     "vantac": {
         "name": "Vantac",
         "tx_2400": {
